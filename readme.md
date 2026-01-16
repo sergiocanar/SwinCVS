@@ -12,9 +12,9 @@ Welcome. This repository provides code necessary for reproduction of the SwinCVS
 ## Implemented models
 
 - **SwinV2 Backbone**: Pure SwinV2 backbone. Can be run on random weights or initialised using provided ImageNet weights.
-- **SwinCSV (E2E, with multiclassifier)**: SwinCVS with end-to-end training and multiclassifier. Backbone weights initialised on ImageNet.
-- **SwinCSV (E2E, without multiclassifier)**: SwinCVS with end-to-end training, but without multiclassifier. Backbone weights initialised on ImageNet.
-- **SwinCSV (Frozen, without multiclassifier)**: SwinCVS where image encoding backbone is frozen. Suggested backbone weights pretrained on Endoscapes.
+- **SwinCVS (E2E, with multiclassifier)**: SwinCVS with end-to-end training and multiclassifier. Backbone weights initialised on ImageNet.
+- **SwinCVS (E2E, without multiclassifier)**: SwinCVS with end-to-end training, but without multiclassifier. Backbone weights initialised on ImageNet.
+- **SwinCVS (Frozen, without multiclassifier)**: SwinCVS where image encoding backbone is frozen. Suggested backbone weights pretrained on Endoscapes.
 
 ## Installation
 
